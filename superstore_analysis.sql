@@ -1,5 +1,5 @@
 Use superstore;
-Select * from train;
+
 
 -- Find cities whose total sales are greater than the average total sales across all cities -- 
 
