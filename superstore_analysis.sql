@@ -32,7 +32,7 @@ select CTE1.Category, CTE1.total_sales, CTE2.total_orders
 from CTE1 JOIN CTE2 ON
 CTE1.Category=CTE2.Category;
 
-select * from train;
+
 
 -- Calculate region-wise total sales and order count, and sort by sales descending and order count ascending -- 
 
@@ -94,7 +94,6 @@ where YEAR(STR_TO_DATE(`Order Date`, '%m/%d/%Y')) IS NOT NULL
 group by YEAR(STR_TO_DATE(`Order Date`, '%m/%d/%Y'))
 order by total_sales DESC;
 
-Select * from train;
 
 -- Calculate average order value per state based on order-level sales --
  
