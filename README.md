@@ -1,6 +1,6 @@
 # Superstore SQL Analysis
 
-SQL analysis of Kaggle's Superstore dataset (10,000+ rows) using MySQL.  
+SQL analysis of Kaggle's Superstore dataset (10,000+ rows) using MySQL. 
 The goal was to answer real business questions about sales performance, customer behavior, shipping efficiency, and regional trends.
 
 ---
