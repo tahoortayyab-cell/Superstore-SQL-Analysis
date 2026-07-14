@@ -1,6 +1,6 @@
  Use superstore;
 Select * from train;
--- Find cities whose total sales are greater than the average total sales across all cities -- 
+-- Find cities whose total sales are greater than the average total sales across all cities --
 
 WITH CTE AS(
 Select city, sum(Sales) as total_sales
